@@ -10,11 +10,11 @@ h1{
 }
 section{
     display: flex;
+    margin-bottom: 100px;
 }
 .half-width{
     width: 50%;
     padding-left: 2%;
-    padding-right: 2%;
 }
 .half-width img{
     width: 100%;
@@ -26,4 +26,10 @@ section{
     padding: 10px 40px;
     color: white;
     border-radius: 5px;
+}
+.about-me{
+    background-image: url(images/bg2.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+
 }
