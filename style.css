@@ -4,6 +4,11 @@ body{
 }
 h1{
     font-size: 50px;
+    font-weight: 700;
+    color: crimson;
+}
+h2{
+    font-size: 30px;
 }
 .orange-color{
     color: blueviolet;
@@ -28,15 +33,27 @@ h1{
     border-radius: 5px;
 }
 .about-me{
-    background-image: url(images/bg2.png);
+    background-image: url(images/shapes/Frame\ 57.jpg);
     background-repeat: no-repeat;
     background-size: 100%;
 
 }
-.recipe-item{
-    border: 10px white;
-}
 footer{
     text-align: center;
-    background-color: salmon;
+    background-color: goldenrod;
+}
+.border-radius{
+    border-radius: 100px;
+}
+.recipe-item{
+    width: 30%;
+    margin-left: 2%;
+    margin-right: 2%;
+    border-radius: ;
+    box-shadow: 10px 10x 30px gray;
+}
+#first-recipe{
+    border-radius: 50px;
+    box-shadow: 10px 10x 110px gray;
+    border: green;
 }
