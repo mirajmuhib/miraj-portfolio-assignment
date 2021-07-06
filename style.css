@@ -8,7 +8,7 @@ h1{
 .orange-color{
     color: blueviolet;
 }
-section{
+.flexible-container{
     display: flex;
     margin-bottom: 100px;
 }
@@ -33,7 +33,9 @@ section{
     background-size: 100%;
 
 }
-.recipe{
-    padding left: 50%;
-    
+.recipe-item{
+    width: 50%;
+    margin-left: 2%;
+    margin-right: 2%;
+    box-shadow: 10px 10px gray;
 }
